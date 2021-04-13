@@ -9,7 +9,7 @@ makeCacheMatrix <- function(x = matrix()) {                                     
 q <- NULL
         ## As can be seen above, put q as a NULL thus this will hold the value for the matrix of the mean
         set <- function(y) {                                                            ## Find the set function and assign it to a new variable
-                q <<- y;                                                                ## In the parent environment, assigns the value of q
+                x <<- y;                                                                ## In the parent environment, assigns the value of q
                 q <<- NULL;                                                             ## If a new matrix is discovered or calculated, set q to NULL.
 }
         ## This is to define the function to get the mean of the variable
