@@ -2,11 +2,12 @@
 ## Also listed below are the commands and the functions for each of the variables 
 
 ## The functions specified are used to encode the following and is used as a fullfilment of this Coursera course: R Programming
-## Week 3 Assignment in Gitihub accomplished April 12, 2021
+## Week 3 Assignment in Gitihub accomplished April 18, 2021
+## Accomplished by QueenVhyletteOrbillo
 
 ## The resulting function generates a unique "matrix" object that can cache Q
 makeCacheMatrix <- function(x = matrix()) {                                             ## The default mode of "matrix" is used to determine the statement.
-q <- NULL                                                                               ## As shown, put q as a NULL thus this will hold the value for the matrix of the mean
+        q <- NULL                                                                       ## As shown, put q as a NULL thus this will hold the value for the matrix of the mean
         set <- function(y) {                                                            ## Find the set function and assign it to a new variable
                 x <<- y;                                                                ## In the parent environment, assigns the value of q
                 q <<- NULL;                                                             ## If a new matrix is discovered or calculated, set q to NULL.
